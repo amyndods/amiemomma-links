@@ -82,6 +82,7 @@ h1 { margin: 10px 0 0; font-size: 28px; line-height: 1.15; letter-spacing: -.02e
 .link:hover { transform: translateY(-3px) scale(1.01); background: var(--card-hover); border-color: var(--accent); }
 .link:active { transform: scale(.985); }
 .link:focus-visible, .pill:focus-visible, .socials a:focus-visible, input:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.icon { width: 56px; height: 56px; object-fit: contain; flex: none; filter: drop-shadow(0 3px 8px rgba(0, 0, 0, .45)); }
 .body { display: flex; flex-direction: column; flex: 1; min-width: 0; }
 .title { font-weight: 650; font-size: 17px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .desc { color: var(--muted); font-size: 14px; }

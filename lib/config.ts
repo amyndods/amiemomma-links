@@ -20,6 +20,8 @@ export type LinkItem =
       showUntil?: string;
       /** Gentle pulse to pull the eye. Use on ONE link. */
       highlight?: boolean;
+      /** Small logo shown on the left of the card (file in /public) */
+      icon?: string;
     }
   | { type: "header"; title: string }
   | { type: "embed"; provider: "youtube" | "spotify"; id: string; title?: string }
@@ -54,6 +56,6 @@ export const items: LinkItem[] = [
   { type: "link", id: "kick", title: "Kick", description: "Live streams", url: "https://kick.com/amiemomma" },
   { type: "link", id: "tiktok", title: "TikTok", description: "@amiemomma", url: "https://www.tiktok.com/@amiemomma" },
   { type: "header", title: "Join the Community" },
-  { type: "link", id: "moms-house", title: "Mom's House", description: "My Discord", url: "https://discord.gg/x6EfwzznzG" },
-  { type: "link", id: "ucrp", title: "UCRP Discord", description: "Uncharted RP", url: "https://discord.gg/unchartedrp" },
+  { type: "link", id: "moms-house", title: "Mom's House", description: "My Discord", url: "https://discord.gg/x6EfwzznzG", icon: "/Logo.png" },
+  { type: "link", id: "ucrp", title: "UCRP Discord", description: "Uncharted RP", url: "https://discord.gg/unchartedrp", icon: "/ucrp.png" },
 ];

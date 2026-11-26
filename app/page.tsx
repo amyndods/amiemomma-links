@@ -67,6 +67,7 @@ export default function Home() {
               <li key={it.id} style={style}>
                 <a href={`/go/${it.id}`} className={`card link${it.featured ? " featured" : ""}${it.highlight ? " pulse" : ""}`} rel="noopener">
                   {it.featured && it.image && <img src={it.image} alt="" loading="eager" />}
+                  {it.icon && <img className="icon" src={it.icon} alt="" width={56} height={56} />}
                   <span className="body">
                     <span className="title">{it.title}{it.badge && <em className="badge">{it.badge}</em>}</span>
                     {it.description && <span className="desc">{it.description}</span>}
