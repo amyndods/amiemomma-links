@@ -32,7 +32,7 @@ export const site = {
   handle: "@amiemomma",
   tagline: "Navy Vet 🌻 Single Mom 🌻 Gamer",
   bio: "Owner of Uncharted RP. Advocate for childhood cancer and autism awareness.",
-  avatar: "/logo.png", // file lives in /public. Empty = generated initials.
+  avatar: "/Logo.png", // file lives in /public. Empty = generated initials.
   verified: false,
   location: "",
   /** sunflower (deep sage) | cream (light) */
